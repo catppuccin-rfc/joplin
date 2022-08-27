@@ -9,16 +9,20 @@ installation:
   flavours:
     latte: 
       default: 
-        - src/latte/
+        - src/latte/userchrome.css
+        - src/latte/userstyle.css
     frappe: 
       default: 
-        - src/frappe/
+        - src/frappe/userchrome.css
+        - src/frappe/userstyle.css
     macchiato: 
       default:
-        - src/macchiato/
+        - src/macchiato/userchrome.css
+        - src/macchiato/userstyle.css
     mocha: 
       default:
-        - src/mocha/
+        - src/mocha/userchrome.css
+        - src/mocha/userstyle.css
   to: .
   one_flavour: true
 
