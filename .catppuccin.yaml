@@ -1,0 +1,25 @@
+# A catppuccin RC for joplin. In beta, specs may change. 
+app_name: joplin 
+binary_name: joplin 
+installation:
+  location: 
+    macos: ~/.config/joplin-desktop/
+    linux: ~/.config/joplin-desktop/
+    windows: "%appdata%/Joplin"
+  flavours:
+    latte: 
+      default: 
+        - src/latte/
+    frappe: 
+      default: 
+        - src/frappe/
+    macchiato: 
+      default:
+        - src/macchiato/
+    mocha: 
+      default:
+        - src/mocha/
+  to: .
+  one_flavour: true
+
+
